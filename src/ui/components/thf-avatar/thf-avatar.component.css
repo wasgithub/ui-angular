@@ -1,0 +1,38 @@
+/** thf-avatar */
+.thf-avatar {
+  border-radius: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: inline-block;
+  margin: 5px;
+}
+
+.thf-avatar-image {
+  height: 100%;
+}
+
+.thf-avatar.thf-avatar-xs {
+  width: 24px;
+  height: 24px;
+}
+
+.thf-avatar.thf-avatar-sm {
+  width: 32px;
+  height: 32px;
+}
+
+.thf-avatar.thf-avatar-md {
+  width: 64px;
+  height: 64px;
+}
+
+.thf-avatar.thf-avatar-lg {
+  width: 96px;
+  height: 96px;
+}
+
+.thf-avatar.thf-avatar-xl {
+  width: 144px;
+  height: 144px;
+}
