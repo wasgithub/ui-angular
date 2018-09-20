@@ -1,4 +1,8 @@
 /** thf-avatar */
+thf-avatar {
+  box-sizing: content-box;
+}
+
 .thf-avatar {
   border-radius: 150px;
   background-repeat: no-repeat;
