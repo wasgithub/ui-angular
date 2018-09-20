@@ -1,16 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ThfButtonBaseComponent } from './thf-button-base.component';
+
 @Component({
   // tslint:disable-next-line:component-selector
   selector: 'thf-button',
   templateUrl: './thf-button.component.html',
   styleUrls: ['./thf-button.component.css']
 })
-export class ThfButtonComponent implements OnInit {
+export class ThfButtonComponent extends ThfButtonBaseComponent {
 
-  constructor() { }
-
-  ngOnInit() {
+  onClick() {
+    this.click.emit(null);
   }
 
 }

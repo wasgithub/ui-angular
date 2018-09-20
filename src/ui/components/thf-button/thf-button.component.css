@@ -1,0 +1,9 @@
+.thf-button {
+  background-color: #0c9abe;
+  height: 44px;
+  border: solid 1px rgb(73, 134, 134);
+  border-radius: 3px;
+  color: #fff;
+  padding: 0 16px;
+  display: inline-block;
+}
