@@ -1,12 +1,32 @@
 .thf-button {
   font-family: NunitoSans-Bold;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 44px;
   background-color: #0c9abe;
   height: 44px;
-  border: solid 1px rgb(73, 134, 134);
   border-radius: 3px;
   color: #fff;
   padding: 0 16px;
   display: inline-block;
+}
+
+.thf-button:active {
+  background-color: #075c72;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.thf-button:disabled {
+  background-color: #b6bdbf;
+}
+
+.thf-button:hover{
+  background-color: #097b98;
+}
+
+.thf-button-sm {
+  font-size: 12px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
 }
