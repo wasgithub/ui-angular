@@ -3,7 +3,6 @@ import { Input } from '@angular/core';
 const THF_AVATAR_SIZES = ['xs', 'sm', 'md', 'lg', 'xl'];
 const THF_AVATAR_SIZE_DEFAULT = 'md';
 
-
 export class ThfAvatarBaseComponent {
   private _size = 'md';
 

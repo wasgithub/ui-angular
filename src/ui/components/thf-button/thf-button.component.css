@@ -1,4 +1,7 @@
 .thf-button {
+  font-family: NunitoSans-Bold;
+  font-size: 16px;
+  line-height: 24px;
   background-color: #0c9abe;
   height: 44px;
   border: solid 1px rgb(73, 134, 134);
