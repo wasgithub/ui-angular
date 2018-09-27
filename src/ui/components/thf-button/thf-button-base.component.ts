@@ -23,6 +23,7 @@ export class ThfButtonBaseComponent {
 
   private _disabled: boolean;
   private _small: boolean;
+  private _type: string = 'default';
 
   /** Label do botão. */
   @Input('t-label') label: string;
@@ -47,7 +48,17 @@ export class ThfButtonBaseComponent {
   }
 
   get small(): boolean {
-    return this.small = this._small;
+    return this._small;
   }
+
+  @Input('t-type') set type(value: string) {
+    this._type = THF_BUTTON_TYPES.includes(value) ? value : THF_BUTTON_TYPE_DEFAULT;
+  }
+
+  get type(): string {
+    return this._type;
+  }
+
+  @Output('t-click') click = new EventEmitter<null>();
 
 }

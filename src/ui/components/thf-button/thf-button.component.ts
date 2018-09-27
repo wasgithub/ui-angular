@@ -10,8 +10,8 @@ import { ThfButtonBaseComponent } from './thf-button-base.component';
 })
 export class ThfButtonComponent extends ThfButtonBaseComponent {
 
-  // onClick() {
-  //   this.click.emit(null);
-  // }
+  onClick() {
+    this.click.emit(null);
+  }
 
 }

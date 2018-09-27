@@ -1,10 +1,12 @@
 <button
   class="thf-button thf-text-elllipsis"
   type="button"
-  [class.thf-button-primary]="type === 'primary'"
+  [class.thf-button-danger]="type === 'danger'"
+  [class.thf-button-default]="type === 'default' || 'link' || 'primary'"
   [class.thf-button-sm]="small"
-  [disabled]="disabled">
+  [disabled]="disabled"
+  (click)="onClick()">
 
   <span *ngIf="icon" class="thf-icon {{ icon }}" aria-hidden="true"></span>
-{{ label }}
+  {{ label }}
 </button>

@@ -2,12 +2,16 @@
   font-family: NunitoSans-Bold;
   font-size: 16px;
   line-height: 44px;
-  background-color: #0c9abe;
+
   height: 44px;
   border-radius: 3px;
   color: #fff;
   padding: 0 16px;
   display: inline-block;
+}
+
+.thf-button-default {
+  background-color: #0c9abe;
 }
 
 .thf-button:active {
@@ -29,4 +33,12 @@
   height: 32px;
   line-height: 32px;
   padding: 0 12px;
+}
+
+.thf-button-danger {
+  background-color: #c64840
+}
+
+.thf-button-danger:hover {
+  background-color: #7c1b14
 }
