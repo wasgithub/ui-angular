@@ -22,7 +22,7 @@ const THF_BUTTON_TYPE_DEFAULT = 'default';
 export class ThfButtonBaseComponent {
 
   private _disabled: boolean;
-  private _small: boolean;
+  private _small: boolean = false;
   private _type: string = 'default';
 
   /** Label do botão. */
