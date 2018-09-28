@@ -7,9 +7,13 @@
   t-disabled="false"
   t-icon="thf-icon-totvs"
   t-label="THFButton"
-  t-small="true"
-  t-type="danger"
+  t-small="false"
   (t-click)="click()"
+  t-type="danger"
   >
 </thf-button>
+
+<thf-button-group
+  [t-buttons]="buttons">
+</thf-button-group>
 
