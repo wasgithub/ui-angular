@@ -7,7 +7,7 @@ const THF_AVATAR_DEFAULT_SRC = 'src/assets/images/ninja-simple-512.png';
   // tslint:disable-next-line:component-selector
   selector: 'thf-avatar',
   templateUrl: './thf-avatar.component.html',
-  styleUrls: ['./thf-avatar.component.css']
+  styleUrls: ['./thf-avatar.component.scss']
 })
 export class ThfAvatarComponent extends ThfAvatarBaseComponent implements OnInit {
 

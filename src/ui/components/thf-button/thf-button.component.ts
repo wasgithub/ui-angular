@@ -6,7 +6,7 @@ import { ThfButtonBaseComponent } from './thf-button-base.component';
   // tslint:disable-next-line:component-selector
   selector: 'thf-button',
   templateUrl: './thf-button.component.html',
-  styleUrls: ['./thf-button.component.css']
+  styleUrls: ['./thf-button.component.scss']
 })
 export class ThfButtonComponent extends ThfButtonBaseComponent {
 

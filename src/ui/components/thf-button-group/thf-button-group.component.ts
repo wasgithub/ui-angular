@@ -5,7 +5,7 @@ import { ThfButtonGroupBaseComponent } from './thf-button-base.componnet';
 @Component({
   selector: 'thf-button-group',
   templateUrl: './thf-button-group.component.html',
-  styleUrls: ['./thf-button-group.component.css']
+  styleUrls: ['./thf-button-group.component.scss']
 })
 export class ThfButtonGroupComponent extends ThfButtonGroupBaseComponent implements OnInit {
 
